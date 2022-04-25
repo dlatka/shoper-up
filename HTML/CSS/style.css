@@ -1,0 +1,112 @@
+body {
+    background-color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+header,
+main,
+footer {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #ffffff;
+    padding: 10px 0 10px 0;
+}
+
+a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: 500;
+    color:#ffffff;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20 px;
+}
+
+header {
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1.5px solid #cacaca;
+}
+
+
+header,
+ul {
+    display: flex;
+    margin-top: 2px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0 40px 0 25px;
+}
+
+ul li {
+    margin: 5px;
+}
+
+ul a {
+    border: 1px solid #cacaca;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2 px;
+}
+
+main p {
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.container,
+.car_box_inside
+.lorem_ipsum_inside {
+    margin: 0 auto;
+}
+
+.car_bg {
+    background: url('../two-customized-cars-rolling-through-a-city-street.jpg') no-repeat center;
+    background-size: contain;
+    margin-top: 25px;
+}
+
+.car_box_inside {
+    max-width: 560px;
+    padding: 15% 5% 30% 5%;
+}
+
+.lorem_box {
+    max-width: 800px;
+}
+
+.lorem_inside {
+    margin: 30px 0;
+    padding: 20px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+}
+
+footer {
+    border-radius: 0 0 10px 10px;
+    border-top: 1.5px solid #cacaca;
+    font-size: 18px;
+}
+
+.footer_padding {
+    margin-left: 3%;
+}
